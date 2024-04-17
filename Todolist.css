@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+}
+
+body {
+  border: 15 px solid rgba(12, 136, 89, 0.54);
+  background: rgb(23,167,44);
+  background: radial-gradient(circle, rgba(23,167,44,0.3337710084033614) 25%, rgba(100,230,76,0.3309698879551821) 59%, rgba(57,242,194,0.3309698879551821) 71%, rgba(94,115,103,0.7483368347338936) 97%);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.todo-container {
+  max-width: 400px;
+  margin: 30px auto;
+  padding: 70px;
+  border: 5px solid black;
+  border-radius: 5px;
+  /* From https://css.glass */
+  background: rgba(14, 96, 99, 0.75);
+  border-radius: 16px;
+  box-shadow: 3px 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+} 
+
+ul {
+  list-style-type: square;
+  padding: 0;
+  margin: 20px;
+}
+
+button {
+  color: white;
+  background-color: #4caf50;
+  margin-top: 10px;
+  padding: 10px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(0, 0, 0);
+}
+
+.image {
+  position: relative;
+  left: 20vw;
+  bottom: 30vh;
+
+}
+
+span {
+    font-size: 25px;
+    padding-left: 23px;
+    position: relative;
+    top: 3px;
+   
+}
+
+span:hover {
+    cursor: pointer;
+}
